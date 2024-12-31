@@ -65,8 +65,8 @@ Talk-A-Tive is a feature-rich **MERN** (MongoDB, Express.js, React.js, Node.js) 
 
 ### 7. Group Creation & Updation
 
-![Group Management](./screenshots/group-management.png)
-
+![Group Updation](./screenshots/group-updation.png)
+![Group Creation](./screenshots/new-group.png)
 ### 8. Notifications
 
 ![Notifications](./screenshots/notifications.png)
