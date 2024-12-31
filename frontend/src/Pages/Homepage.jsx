@@ -2,6 +2,7 @@ import { Container, Box, Text,Image } from "@chakra-ui/react";
 import Demo from "./InTabs";
 import { useNavigate } from 'react-router-dom';
 import {useEffect} from 'react';
+import TalkATIVE from '../assets/images/talk-a-TIVE.png';
 const Homepage = () => {
 const navigate=useNavigate();
 useEffect(()=>{
@@ -37,7 +38,7 @@ useEffect(()=>{
           Talk-A-Tive
         </Text>
         <Image
-        src="images/talk-a-TIVE.png"
+        src={TalkATIVE}
         boxSize="80px"
         borderRadius="full"
         fit="cover"
