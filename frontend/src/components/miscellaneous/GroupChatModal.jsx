@@ -98,7 +98,7 @@ const GroupChatModal = ({ children }) => {
       });
       return;
     }
-    if (selectedUsers.length<=2) {
+    if (selectedUsers.length<=1) {
       toaster.create({
         title: "Atleast 3 members are required for a group",
         type: "error",
