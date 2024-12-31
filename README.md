@@ -75,7 +75,7 @@ Talk-A-Tive is a feature-rich **MERN** (MongoDB, Express.js, React.js, Node.js) 
 
 ![Profile Section](./screenshots/profile-section.png)
 
-### 9. Proper Feedback
+### 10. Proper Feedback
 
 ![Sample 1](./screenshots/error1.png)
 ![Sample 2](./screenshots/error2.png)
