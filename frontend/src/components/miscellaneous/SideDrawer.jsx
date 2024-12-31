@@ -3,7 +3,7 @@ import { Button} from "@/components/ui/button"
 import { useDisclosure } from "@chakra-ui/hooks";
 import { Input } from "@chakra-ui/input";
 import { Box ,Text,IconButton,Image} from "@chakra-ui/react"
-
+import TalkATIVE from '../../assets/images/talk-a-TIVE.png';
 import {
   MenuContent,
   MenuItem,
@@ -45,7 +45,8 @@ import * as React from 'react';
 import Badge from '@mui/material/Badge';
 import Stack from '@mui/material/Stack';
 import { VStack } from "@chakra-ui/layout";
-import { Toaster,toaster } from "@/components/ui/toaster"
+import { Toaster,toaster } from "@/components/ui/toaster";
+
 /* eslint-disable no-unused-vars */
 
 
@@ -229,7 +230,7 @@ const SideDrawer = () => {
           Talk-A-Tive
         </Text>
                 <Image
-                src="images/talk-a-TIVE.png"
+                src={TalkATIVE}
                 boxSize="50px"
                 borderRadius="full"
                 fit="cover"
