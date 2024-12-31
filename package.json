@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd backend && npm run dev",
-    "client": "cd frontend && npm run dev",
-    "build": "cd frontend && npm run build"
+    "start": "nodemon backend/server.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Prem Sharma",
   "license": "ISC",
@@ -25,8 +22,5 @@
     "path": "^0.12.7",
     "socket.io": "^4.8.1",
     "talk-a-tive": "file:"
-  },
-    "devDependencies": {
-    "concurrently": "^9.1.1"
   }
 }
