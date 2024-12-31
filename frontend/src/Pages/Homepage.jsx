@@ -37,7 +37,7 @@ useEffect(()=>{
           Talk-A-Tive
         </Text>
         <Image
-        src="images\talk-a-TIVE.png"
+        src="images/talk-a-TIVE.png"
         boxSize="80px"
         borderRadius="full"
         fit="cover"
