@@ -1,6 +1,6 @@
 # Talk-A-Tive
 
-![Talk-A-Tive Logo](./frontend/src/images/talk-a-TIVE.png)
+![Talk-A-Tive Logo](./frontend/src/assets/images/talk-a-TIVE.png)
 
 Talk-A-Tive is a feature-rich **MERN** (MongoDB, Express.js, React.js, Node.js) chat application designed to facilitate seamless communication between users. Whether you're looking to engage in one-on-one conversations or participate in vibrant group chats, Talk-A-Tive has you covered. With robust authentication, real-time messaging, user search capabilities, and comprehensive profile management, this application offers a complete chat experience.
 
