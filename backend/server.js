@@ -55,8 +55,7 @@ const server = app.listen(PORT, () => console.log(`Server started on PORT ${PORT
 const io = require('socket.io')(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:5173",
-    methods: ["GET", "POST"],
+    origin: "https://talk-a-tive-amy0.onrender.com",
   },
 });
 
