@@ -25,8 +25,8 @@ import axios from "axios";
 import { FormControl } from "@chakra-ui/form-control";
 import { useState } from "react";
 import { ChatState } from "../../Context/ChatProvider";
-import UserBadgeItem from "../userAvatar/UserBadgeItem";
-import UserListItem from "../userAvatar/UserListItem";
+import UserBadgeItem from "../UserAvatar/UserBadgeItem";
+import UserListItem from "../UserAvatar/UserListItem";
 import { LuCircleUser, LuCircleUserRound, LuView } from "react-icons/lu";
 
 const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
