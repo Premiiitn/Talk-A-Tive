@@ -80,13 +80,9 @@ Talk-A-Tive is a feature-rich **MERN** (MongoDB, Express.js, React.js, Node.js) 
 ![Sample 1](./screenshots/error1.png)
 ![Sample 2](./screenshots/error2.png)
 
-*Note: Replace the placeholder paths (`./screenshots/...`) with the actual paths to your screenshot images in the repository.*
-
 ## Demo
 
 Access the live demo of Talk-A-Tive [here](https://talk-a-tive-amy0.onrender.com).
-
-*Replace `https://your-live-demo-link.com` with the actual URL where your application is deployed.*
 
 ## Installation
 
@@ -101,7 +97,7 @@ Follow these steps to set up Talk-A-Tive locally on your machine.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/talk-a-tive.git
+git clone https://github.com/Premiiitn/talk-a-tive.git
 cd talk-a-tive
 ```
 
@@ -220,7 +216,7 @@ Contributions are welcome! Follow these steps to contribute to Talk-A-Tive:
 2. **Clone Your Fork**
 
     ```bash
-    git clone https://github.com/yourusername/talk-a-tive.git
+    git clone https://github.com/Premiiitn/talk-a-tive.git
     cd talk-a-tive
     ```
 
@@ -262,7 +258,3 @@ For any inquiries or feedback, please contact:
 - **Email:** [imprem858@gmail.com](mailto:imprem858@gmail.com)
 - **LinkedIn:** [linkedin.com/in/prem858](https://www.linkedin.com/in/prem858/)
 - **GitHub:** [github.com/Premiiitn](https://github.com/Premiiitn)
-
----
-
-*Feel free to customize this README further to better fit your project's specifics, such as adding more screenshots, adjusting installation steps, or including additional sections like FAQs or acknowledgments.*
