@@ -35,7 +35,7 @@ import { Spinner } from "@chakra-ui/react";
 // import NotificationBadge from "react-notification-badge";
 // import { Effect } from "react-notification-badge";
 // import { getSender } from "../../config/ChatLogics";
- import UserListItem from "../userAvatar/UserListItem";
+ import UserListItem from "../UserAvatar/UserListItem";
 import { ChatState } from "../../Context/ChatProvider";
 import { LuBell, LuView } from "react-icons/lu"
 import { Avatar, AvatarGroup } from "@/components/ui/avatar"
