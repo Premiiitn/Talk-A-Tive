@@ -18,12 +18,24 @@ const UserBadgeItem = ({ user, handleFunction, admin }) => {
       colorScheme="purple"
       cursor="pointer"
       onClick={handleFunction}
-      backgroundColor='#34c8bc'
+      backgroundColor= {admin._id === user._id?'black':'#34c8bc'}
       flexDirection='row'
     >
-     <Text fontWeight='bold' ml={1} mr={1} color='black'>{user.name}</Text>
-      {admin === user._id && <span> (Admin)</span>}
-      <LuTrash color='black' size={16} p={4} />
+     <Text fontWeight='bold' ml={1} mr={1} color={admin._id === user._id?'white':'black'}>{user.name}</Text>
+            {admin._id === user._id && (
+        <>
+          <Text as="span" color="white">
+            ( 
+          </Text>
+          <Text as="span" color="red" fontWeight='bold'>
+            Admin
+          </Text>
+          <Text as="span" color="white">
+             )
+          </Text>
+        </>
+      )}
+      <LuTrash color={admin._id === user._id?'#34c8bc':'black'} size={16} p={4} />
     </Badge>
   );
 };
