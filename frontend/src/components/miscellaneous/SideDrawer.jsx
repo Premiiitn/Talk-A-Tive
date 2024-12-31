@@ -229,7 +229,7 @@ const SideDrawer = () => {
           Talk-A-Tive
         </Text>
                 <Image
-                src="images\talk-a-TIVE.png"
+                src="images/talk-a-TIVE.png"
                 boxSize="50px"
                 borderRadius="full"
                 fit="cover"
