@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="jqpgvT0X6qFZpUu-cwrh">
-    <mxGraphModel dx="1050" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,8 +85,62 @@
             <mxPoint x="850" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="St4KirKQyZFefDDQBgLn-31" value="Joi for Input validation(such as valid email" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="880" y="60" width="80" height="80" as="geometry" />
+        <mxCell id="St4KirKQyZFefDDQBgLn-31" value="&lt;ul&gt;&lt;li&gt;Joi for Input validation(such as valid email and normal password standards)&lt;/li&gt;&lt;li&gt;Blank fields in any&lt;/li&gt;&lt;li&gt;Incorrect details&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="860" y="25" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-33" value="login&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="42.5" width="67.5" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="70" as="sourcePoint" />
+            <mxPoint x="1260" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-35" value="client receives token (stored in local storage )" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-36" value="server checks for creds and generates tokens&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="50" as="sourcePoint" />
+            <mxPoint x="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-39" value="Sign up&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="46.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="170" as="sourcePoint" />
+            <mxPoint x="1290" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="110" as="sourcePoint" />
+            <mxPoint x="1390" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-43" value="S E R V E R&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;checks existing if not creates and stores in db&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Generates token&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="185" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="340" as="sourcePoint" />
+            <mxPoint x="1260" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-45" value="password is hashed&amp;nbsp;&lt;div&gt;using bycrupt&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="St4KirKQyZFefDDQBgLn-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="350" as="sourcePoint" />
+            <mxPoint x="1350" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
