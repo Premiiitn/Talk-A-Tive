@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="jqpgvT0X6qFZpUu-cwrh">
-    <mxGraphModel dx="1750" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3850" dy="2691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
           <mxGeometry x="860" y="25" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="St4KirKQyZFefDDQBgLn-33" value="login&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="42.5" width="67.5" height="67.5" as="geometry" />
+          <mxGeometry x="1120" y="55" width="67.5" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="St4KirKQyZFefDDQBgLn-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -103,10 +103,13 @@
         <mxCell id="St4KirKQyZFefDDQBgLn-36" value="server checks for creds and generates tokens&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1084" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="St4KirKQyZFefDDQBgLn-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-33">
+        <mxCell id="St4KirKQyZFefDDQBgLn-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.709;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="St4KirKQyZFefDDQBgLn-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1120" y="50" as="sourcePoint" />
+            <mxPoint x="1169" y="55" as="sourcePoint" />
             <mxPoint x="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1169" y="30" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="St4KirKQyZFefDDQBgLn-39" value="Sign up&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -120,26 +123,420 @@
         </mxCell>
         <mxCell id="St4KirKQyZFefDDQBgLn-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1500" y="110" as="sourcePoint" />
+            <mxPoint x="1500" y="120" as="sourcePoint" />
             <mxPoint x="1390" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1390" y="120" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="St4KirKQyZFefDDQBgLn-43" value="S E R V E R&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;checks existing if not creates and stores in db&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Generates token&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="185" width="140" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="St4KirKQyZFefDDQBgLn-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-43">
+        <mxCell id="St4KirKQyZFefDDQBgLn-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.229;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="St4KirKQyZFefDDQBgLn-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1180" y="340" as="sourcePoint" />
-            <mxPoint x="1260" y="350" as="targetPoint" />
+            <mxPoint x="1269.9999999999995" y="280" as="sourcePoint" />
+            <mxPoint x="1270" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1270" y="340" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="St4KirKQyZFefDDQBgLn-45" value="password is hashed&amp;nbsp;&lt;div&gt;using bycrupt&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="1242.5" y="380" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="St4KirKQyZFefDDQBgLn-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="St4KirKQyZFefDDQBgLn-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1300" y="350" as="sourcePoint" />
             <mxPoint x="1350" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1365" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-47" value="Auth mobile&amp;nbsp;&lt;div&gt;wore&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="474.33" as="sourcePoint" />
+            <mxPoint x="570" y="474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-49" value="Checks for token in header verifies using jwt&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-50" value="chat page&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="680" as="sourcePoint" />
+            <mxPoint x="55" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-57" value="side drawer&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="117.5" y="710" as="sourcePoint" />
+            <mxPoint x="240" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="227.5" y="710" />
+              <mxPoint x="227.5" y="760" />
+              <mxPoint x="227.5" y="770" />
+              <mxPoint x="240" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-59" value="my chats&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="800" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-61" value="single chats&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="765" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="700" as="sourcePoint" />
+            <mxPoint x="370" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="680" />
+              <mxPoint x="300" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-63" value="search bar notification tab myprofile model side drawer&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. new group&lt;/div&gt;&lt;div&gt;2. group update action&lt;/div&gt;&lt;div&gt;3. logout(remove user data from local )&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="850" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-57" target="St4KirKQyZFefDDQBgLn-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="860" as="sourcePoint" />
+            <mxPoint x="100" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.164;exitY=1.087;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.355;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-59" target="St4KirKQyZFefDDQBgLn-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="860" as="sourcePoint" />
+            <mxPoint x="270" y="840" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-72" value="fetches all the existing chat of the logged with the latest message in user&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. new group chat&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="195" y="850" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-73" value="1. scrollable chat&amp;nbsp;&lt;div&gt;2. group chat&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. group/profile modal&amp;nbsp;&lt;/div&gt;&lt;div&gt;4. typing indicators&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="355" y="850" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-61" target="St4KirKQyZFefDDQBgLn-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="850" as="sourcePoint" />
+            <mxPoint x="420" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-75" value="onclick on a notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-77" value="Badge Generation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-79" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="680" as="sourcePoint" />
+            <mxPoint x="500" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="680" />
+              <mxPoint x="620" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-80" value="Badge dissapears&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="655" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-82" value="existing group chat&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="950" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-83" value="Group modal&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;change name&amp;nbsp;&lt;/div&gt;&lt;div&gt;remove/add members&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1110" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1220" as="sourcePoint" />
+            <mxPoint x="300" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-88" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1230" as="sourcePoint" />
+            <mxPoint x="380" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1234.57" as="sourcePoint" />
+            <mxPoint x="570" y="1234.57" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1234.57" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-92" value="Group Name&amp;nbsp;&lt;div&gt;add members&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.392;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1140" as="sourcePoint" />
+            <mxPoint x="380" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-96" value="checks if members&amp;gt;3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1148" width="108" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.412;exitY=1.064;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1250" as="sourcePoint" />
+            <mxPoint x="430" y="1210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="386" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1150" as="sourcePoint" />
+            <mxPoint x="510" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-100" value="Toasters for error handling&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1153.5" width="80" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-101" value="context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1058" width="70" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-106" value="Toasters to indicate errors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-107" value="client&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Type the name / email of the user you want to chat&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1400" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-108" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1460" as="sourcePoint" />
+            <mxPoint x="330" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-109" value="select" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="1440" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-110" value="Server checks if chat already exists if&amp;nbsp; not creates to client" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1430" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-111" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1510" as="sourcePoint" />
+            <mxPoint x="250" y="1490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="1510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-113" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="St4KirKQyZFefDDQBgLn-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1300" as="sourcePoint" />
+            <mxPoint x="400" y="1330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-114" value="spinners until loading&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1149.5" width="80" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-115" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-82" target="St4KirKQyZFefDDQBgLn-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="1050" as="sourcePoint" />
+            <mxPoint x="930" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="1090" />
+              <mxPoint x="730" y="1090" />
+              <mxPoint x="730" y="1120" />
+              <mxPoint x="780" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-116" value="socket event room created and join with chat id&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-117" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="980" as="sourcePoint" />
+            <mxPoint x="980" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1130" />
+              <mxPoint x="720" y="1130" />
+              <mxPoint x="720" y="1200" />
+              <mxPoint x="780" y="1200" />
+              <mxPoint x="780" y="1270" />
+              <mxPoint x="980" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-118" value="chat interface&amp;nbsp;&lt;div&gt;type messages&amp;nbsp;&lt;/div&gt;&lt;div&gt;send&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1350" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-120" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="1430" as="sourcePoint" />
+            <mxPoint x="1240" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-121" value="socket event created&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1083.75" y="1230" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-122" value="server&amp;nbsp;&lt;div&gt;creates messages populates into updates&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;chat in latest message&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1242.5" y="1220" width="175" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.016;entryY=0.894;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.014;exitY=0.89;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-122" target="St4KirKQyZFefDDQBgLn-118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="1500" as="sourcePoint" />
+            <mxPoint x="1260" y="1450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="1430" />
+              <mxPoint x="1240" y="1493" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-124" value="sockets events reply&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1083.75" y="1470" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-125" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="1520" as="sourcePoint" />
+            <mxPoint x="920" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1033.75" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-126" value="notifications generated&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-131" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.882;exitY=1.061;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.185;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="St4KirKQyZFefDDQBgLn-132">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="985.8399999999999" y="1665.34" as="sourcePoint" />
+            <mxPoint x="986.9200000000001" y="1730.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-132" value="check and filtering for unique notifications&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="964" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-133" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.411;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="St4KirKQyZFefDDQBgLn-134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="1630" as="sourcePoint" />
+            <mxPoint x="772" y="1712" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="769" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-134" value="no, if the user to which the message is sent has opened the chat&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-135" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.635;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-101" target="St4KirKQyZFefDDQBgLn-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1040" as="sourcePoint" />
+            <mxPoint x="285" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-138" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="380" as="sourcePoint" />
+            <mxPoint x="20" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-110" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-139" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="380" as="sourcePoint" />
+            <mxPoint x="1000" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-141" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="St4KirKQyZFefDDQBgLn-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="380" as="sourcePoint" />
+            <mxPoint x="1000" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-143" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.174;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1040" as="sourcePoint" />
+            <mxPoint x="680" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="1030" />
+              <mxPoint x="490" y="1030" />
+              <mxPoint x="610" y="1030" />
+              <mxPoint x="610" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-144" value="yes it is the user in not on the personal group chat&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-146" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1300" as="sourcePoint" />
+            <mxPoint x="440" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-147" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Execute&amp;nbsp;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1210" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-148" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;yes create&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1200" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-149" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;yes/no&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1225" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-150" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;checks for admin rights&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-154" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="980" as="sourcePoint" />
+            <mxPoint x="500" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-159" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="350" as="sourcePoint" />
+            <mxPoint x="1300" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-162" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="120" as="sourcePoint" />
+            <mxPoint x="1500" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St4KirKQyZFefDDQBgLn-163" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="St4KirKQyZFefDDQBgLn-118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="1470" as="sourcePoint" />
+            <mxPoint x="1060" y="1430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
